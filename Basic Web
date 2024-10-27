@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Busy Day Schedule</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            text-align: left;
+        }
+
+        td {
+            background-color: #ffffff;
+            padding: 10px;
+            border: 1px solid #dddddd;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #f9f9f9;
+        }
+
+        .highlight {
+            font-weight: bold;
+            color: #d9534f;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Busy Day Schedule</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Event</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>7:00 AM</td>
+                <td>Wake up and stretch</td>
+            </tr>
+            <tr>
+                <td>10:00 AM</td>
+                <td>Breakfast</td>
+            </tr>
+            <tr>
+                <td>10:40 AM</td>
+                <td>Shower</td>
+            </tr>
+            <tr>
+                <td> 11:00 AM</td>
+                <td>Work on project <span class="highlight">(Deadline Monday)</span></td>
+            </tr>
+            <tr>
+                <td>12:00 PM</td>
+                <td>Lunch with friends</td>
+            </tr>
+            <tr>
+                <td>1:50 PM</td>
+                <td>Grocery shopping</td>
+            </tr>
+            <tr>
+                <td>3:00 PM</td>
+                <td>Clean House</td>
+            </tr>
+            <tr>
+                <td>5:00 PM</td>
+                <td>Dinner prep</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
